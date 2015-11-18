@@ -35,3 +35,5 @@ https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod/lua/autor
 https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod/lua/autorun/server/send-lua-and-net-send.lua
 
 If you choose to allow players to run "sv_allowcslua 1" then we need to prevent them exploiting or having unfair advantages over other players.
+
+Ontop of using SendLua also use net.Send to get information from the client.
