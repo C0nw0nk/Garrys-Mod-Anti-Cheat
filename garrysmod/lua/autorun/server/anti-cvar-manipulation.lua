@@ -1,6 +1,7 @@
 --Time to check each clients console variables to see if they changed.
 --The reason it has to be on a timer is because they can do a server variable bypass after they connected.
 --(Does not have to always be active before they join the server.)
+--time is in seconds.
 local check_time = 30
 
 --Length of the random console command we will generate each time. (Never keep this the same cheaters could block it.)
@@ -9,7 +10,8 @@ local length = 70
 
 --Console variable manipulation ban length.
 --This is for the amount of time we want to ban cheaters who change their client side variables.
---0 = permanently
+--time is in minutes.
+--0 = permanently.
 local ban_length = 0
 
 --Server variables you do not want to allow players to bypass or change client side.
@@ -38,12 +40,14 @@ end)
 
 --Lets create a timer that players will execute if their console variables differ from the server. (Console Variable Manipulation)
 local function GetCVarManipulation()
+	--For each player on the server.
 	for k, v in pairs(player.GetAll()) do
+		--For each blacklisted variable.
 		for _, c in pairs(blacklistedVars) do
 			--If the console command "_" is not equal to "c" then execute the concommand.add function and ban self.
 			v:SendLua("local GetConVarNumber = GetConVarNumber if GetConVarNumber('".._.."') != "..c.." then LocalPlayer():ConCommand('"..str.."') end")
 		end
 	end
 end
-timer.Create('GetCheatCVars',check_time,0, GetCVarManipulation)
+timer.Create('timer-GetCVarManipulation',check_time,0, GetCVarManipulation)
 --End timer.
