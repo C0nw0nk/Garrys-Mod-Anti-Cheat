@@ -22,6 +22,14 @@ local blacklistedVars = {
 	sv_cheats = 0
 }
 
+--[[
+DO NOT TOUCH ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING.
+
+^^^^^ YOU WILL MOST LIKELY BREAK THE SCRIPT SO TO CONFIGURE THE FEATURES YOU WANT JUST USE WHAT I GAVE YOU ABOVE. ^^^^^
+
+THIS BLOCK IS ENTIRELY WRITTEN IN CAPS LOCK TO SHOW YOU HOW SERIOUS I AM.
+]]
+
 --Begin generating a dynamic command string.
 local str = ""
 --{97, 122} a-z lower-case | {65, 90} A-Z upper-case | {48, 57} 0-9 numeric.
