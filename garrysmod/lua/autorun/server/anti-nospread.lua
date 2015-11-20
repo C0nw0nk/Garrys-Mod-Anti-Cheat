@@ -1,6 +1,9 @@
 --Credits for the contents on this script goto Willox
 --https://facepunch.com/showthread.php?t=1445838&p=46905364&viewfull=1#post46905364
 
+--If you wanted to test this change the following to this and fire your weapon and look around.
+--bullet.Dir = bullet.Dir + Vector( 100, 0, 0 )
+
 local meta = FindMetaTable "Entity"
 meta.OldFireBullets = meta.OldFireBullets or meta.FireBullets
 
