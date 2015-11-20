@@ -4,6 +4,8 @@ A Simple Anti Cheat
 
 This Anti Cheat is how I like to deal with people and prevent them doing things or bypassing ingame functions with external programs or exploits.
 
+This will be entirely server sided so in the autorun/server folder (You can't trust a client for anything.)
+
 It is still in development but I will list below what methods are finished and what I am still working on.
 
 For a decent Anti wallhack method just put into your servers launch command line "+sv_pure 1"
