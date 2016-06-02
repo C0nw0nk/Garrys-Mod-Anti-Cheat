@@ -10,6 +10,8 @@ It is still in development but I will list below what methods are finished and w
 
 For a decent Anti wallhack method just put into your servers launch command line "+sv_pure 1"
 
+If you are having issues with players bypassing bans i did a script for that too : https://github.com/C0nw0nk/Garrys-Mod-Family-Sharing
+
 # Finished Features :
 
 Anti-Bhop (Bunny Hopping.)
