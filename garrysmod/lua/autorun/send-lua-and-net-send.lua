@@ -1,2 +1,7 @@
 --Everything below this point is not necessary if you block sv_allowcslua people only change these
 --values if they can use sv_allowcslua to do so.(Force changing your client convars)
+
+if SERVER then
+end
+if CLIENT then
+end
