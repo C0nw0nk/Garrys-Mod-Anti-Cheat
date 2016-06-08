@@ -33,6 +33,10 @@ Anti-Recoil (Forces players to look up or down when shooting if their weapon has
 
 https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod/lua/autorun/server/anti-recoil.lua
 
+Anti-Ladder Exploit. (Prevent players abusing HL2 ladders by grabbing onto it and killing themselves at the same time causing them to respawn on the ladder.)
+
+https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod/lua/autorun/server/anti-ladder-glitch.lua
+
 
 # Under development :
 
