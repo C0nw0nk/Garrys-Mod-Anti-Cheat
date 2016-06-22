@@ -14,7 +14,7 @@ hook.Add("StartCommand", "StartCommand-Anti-Recoil", function(pl, key)
 	--If player is holding down their attack keys
 	
 	--If the player is using primary attack and the clip on their weapon is greater than 0 (not empty).
-	if pl:KeyDown(IN_ATTACK) and pl:GetActiveWeapon():Clip1() > 0 then
+	if pl:KeyDown(IN_ATTACK) and pl:GetActiveWeapon():Clip1() != nil and pl:GetActiveWeapon():Clip1() > 0 then
 		--If the weapon they are holding has a recoil method attached to it by the SWEP.
 		--If the recoil method is kickup.
 		if pl:GetActiveWeapon().Primary.KickUp then
@@ -36,7 +36,7 @@ hook.Add("StartCommand", "StartCommand-Anti-Recoil", function(pl, key)
 	end
 	
 	--If the player is using secondary attack and the clip on their weapon is greater than 0 (not empty).
-	if pl:KeyDown(IN_ATTACK2) and pl:GetActiveWeapon():Clip1() > 0 then
+	if pl:KeyDown(IN_ATTACK2) and pl:GetActiveWeapon():Clip1() != nil and pl:GetActiveWeapon():Clip1() > 0 then
 		--If the weapon they are holding has a recoil method attached to it by the SWEP.
 		--If the recoil method is kickup.
 		if pl:GetActiveWeapon().Secondary.KickUp then
