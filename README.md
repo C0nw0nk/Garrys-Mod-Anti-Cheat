@@ -12,6 +12,12 @@ For a decent Anti wallhack method just put into your servers launch command line
 
 If you are having issues with players bypassing bans i did a script for that too : https://github.com/C0nw0nk/Garrys-Mod-Family-Sharing
 
+# Installation :
+
+Install the script to the `"\garrysmod\addons\garrysmod-anti-cheat\"` folder.
+
+The path to should look like this : `"\garrysmod\addons\garrysmod-anti-cheat\lua\autorun\server\anti-bhop.lua"`
+
 # Finished Features :
 
 Anti-Bhop (Bunny Hopping.)
