@@ -46,7 +46,7 @@ https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod-anti-chea
 
 # Under development :
 
-https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod-anti-cheat/lua/autorun/server/send-lua-and-net-send.lua
+https://github.com/C0nw0nk/Garrys-Mod-Anti-Cheat/blob/master/garrysmod-anti-cheat/lua/autorun/send-lua-and-net-send.lua
 
 If you choose to allow players to run "sv_allowcslua 1" then we need to prevent them exploiting or having unfair advantages over other players.
 
